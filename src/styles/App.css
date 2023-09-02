@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,103,45,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.weather {
+    width: 400px;
+    height: 700px;
+    border-radius: 30px;
+    background: url("../assets/0823469a9b2c6191d54994988c82480e.jpg");
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    justify-content: center;
+}
+
